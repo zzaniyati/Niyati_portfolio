@@ -1,0 +1,140 @@
+.navbar {
+  background-color: #FFFEE0;
+
+}
+
+.custom-toggler .navbar-toggler {
+  border-color: lightgreen !important;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+  font-family: 'Poppins';
+  color: #010101 !important;
+  font-size: 25px;
+}
+
+.nav-link {
+  font-family: 'Poppins';
+  color: #010101 !important;
+  font-size: 25px;
+}
+
+@media (min-width: 320px) and (max-width: 575px) {
+  .nav-link {
+    font-size: 18px;
+  }
+}
+
+.logoimg {
+  width: 300px;
+  height: auto;
+}
+
+@media (min-width: 320px) and (max-width: 575px) {
+  .logoimg {
+    width: 200px;
+    height: auto;
+  }
+}
+
+.nav-btn {
+  font-weight: 600;
+  padding: 12px 35px;
+  margin: 10px;
+  color: black;
+  background-color: #D9D9D9;
+  border-radius: 50px;
+  border: #010101 solid 2px;
+  margin-left: 20px;
+}
+
+@media (min-width: 320px) and (max-width: 575px) {
+  .nav-btn {}
+}
+
+
+.margin-top {
+  margin-top: 100px;
+}
+
+
+
+
+
+.blue-small-text {
+  font-size: 22px;
+  font-family: 'Poppins';
+  color: #79DCFF;
+}
+
+
+.head-hero {
+  font-size: 60px;
+  font-family: 'Poppins';
+}
+
+@media (min-width: 320px) and (max-width: 575px) {
+  .head-hero {
+    font-size: 40px;
+    font-family: 'Poppins';
+  }
+}
+
+.sub-head {
+  font-size: 27px;
+  font-family: 'Poppins';
+}
+
+.btn-hero {
+  font-weight: 600;
+  padding: 12px 35px;
+  margin: 10px;
+  color: black;
+  background-color: #79DCFF;
+  border-radius: 50px;
+  border: #010101 solid 2px;
+  margin-left: 20px;
+
+}
+
+.padding-hero {
+  padding-top: 100px;
+}
+
+.footer {
+  background-color: #FFFEE0;
+}
+
+.work-card {
+  background: #ffffff;
+  border: solid 1px #eeeeee;
+  padding: 15px;
+  padding-top: 10px;
+  border-radius: 18px;
+  -webkit-box-shadow: 0px 17px 13px 0px #c0c0c005;
+  box-shadow: 0px 17px 13px 0px #c0c0c005;
+  margin: auto;
+  margin-bottom: auto;
+  margin-bottom: 30px;
+  max-width: 23rem;
+  overflow: hidden;
+  -webkit-transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.work-card .work-card-header {
+  border-radius: 12px;
+
+  height: 17rem;
+  overflow: hidden;
+}
+
+.work-card:hover {
+  transform: scale(1.1);
+}
+
+.work-card {
+  transition: transform 0.5s;
+
+}
