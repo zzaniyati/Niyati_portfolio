@@ -200,7 +200,11 @@ animation-duration: 2s;
   margin: 0%;
   align-items: center;
 }
-
+@media (max-width:576px){
+  .bg-33 p{
+    font-size: 20px;
+  }
+}
 
 
 @keyframes scroll{
