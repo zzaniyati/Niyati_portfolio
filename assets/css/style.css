@@ -1,7 +1,9 @@
 body{
   font-family: 'Poppins';
 }
-
+body, html {
+  overflow-x: hidden;
+}
 .navbar {
   background-color: #FFFEE0;
 
