@@ -83,6 +83,7 @@ body, html {
      right: -45%;
     top: -215px;
     width: 50%;
+animation-duration: 2s;
   }
 }
 @keyframes frontend{
@@ -115,6 +116,7 @@ body, html {
     position: relative;
     right: -20%;
     bottom: 215px;
+animation-duration: 2s;
   }
 }
 @keyframes ui-ux{
@@ -147,6 +149,7 @@ body, html {
     position: relative;
     right: -10%;
     bottom: 216px;
+animation-duration: 2s;
   }
 }
 @keyframes webflow{
