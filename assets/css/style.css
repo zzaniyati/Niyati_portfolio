@@ -244,13 +244,12 @@ body, html {
 
 .btn-hero {
   font-weight: 600;
-  padding: 12px 35px;
+  padding: 12px 25px;
   margin: 10px;
   color: black !important;
   background-color: #79DCFF;
   border-radius: 50px;
   border: #010101 solid 2px;
-  margin-left: 20px;
   transition: all 3ms linear;
 }
 
