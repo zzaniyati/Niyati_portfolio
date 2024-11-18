@@ -192,7 +192,11 @@ animation-duration: 2s;
   display: flex;
   white-space: nowrap; 
 }
-
+@media (max-width:576px){
+ .bg-33 .conect{
+    padding-top:14px;
+  }
+}
 .bg-33 p{
   display: inline-block;
   color: #eeeeee;
