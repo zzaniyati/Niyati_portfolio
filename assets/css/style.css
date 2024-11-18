@@ -80,7 +80,9 @@ body, html {
 @media (max-width:576px){
   .frontend{
     position: relative;
-    right: 0%;
+     right: -45%;
+    top: -215px;
+    width: 50%;
   }
 }
 @keyframes frontend{
@@ -111,8 +113,8 @@ body, html {
 @media (max-width:576px){
   .ui-ux{
     position: relative;
-    right: 0%;
-    bottom: 50px;
+    right: -20%;
+    bottom: 215px;
   }
 }
 @keyframes ui-ux{
@@ -143,8 +145,8 @@ body, html {
 @media (max-width:576px){
   .webflow{
     position: relative;
-    right: 0%;
-    bottom: 50px;
+    right: -10%;
+    bottom: 216px;
   }
 }
 @keyframes webflow{
@@ -213,6 +215,13 @@ body, html {
   font-size: 22px;
   font-family: 'Poppins';
   color: #79DCFF;
+}
+
+@media (max-width: 575px){
+.strips{
+  position: relative;
+  top:-100px;
+}
 }
 
 
